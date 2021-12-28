@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div class="shadow"></div>
+    <header>
+        <img src="./src/logo.svg" alt="logo">
+        <div>
+            <p>БАНК</p>
+            <p>БИЗНЕС</p>
+            <p>ИНВЕСТИЦИИ</p>
+            <p>СТРАХОВАНИЕ</p>
+            <p>МОБАЙЛ</p>
+            <p>ПУТЕШЕСТВИЯ</p>
+            <p>РАЗВЛЕЧЕНИЯ</p>
+        </div>
+        <button>ВОЙТИ</button>
+    </header>
+    <div class="converter">Конвертер валют</div>
+    <section class="main">
+        <div id="block-1">
+            <div class="title">У меня есть</div>
+            <div class="menu">
+                <div class="btn selected">RUB</div>
+                <div class="btn">USD</div>
+                <div class="btn">EUR</div>
+                <div class="btn">GBP</div>
+                <select class="btn select">
+
+                </select>
+            </div>
+            <div class="input">
+                <input type="number" id='input-1'>
+                <div class="currentRate"></div>
+            </div>
+        </div>
+        <div id="btn-exchange" class='changer'>
+            <svg width="41" height="34" viewBox="0 0 41 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.5229 15.2253L38.6356 8.11266L31.5229 1" stroke="black" stroke-width="2"/>
+                <path d="M38.8461 8.17848L2.23682 8.17848" stroke="black" stroke-width="2"/>
+                <path d="M9.32324 18.548L2.21058 25.6607L9.32324 32.7733" stroke="black" stroke-width="2"/>
+                <path d="M2.00008 25.5949L38.6094 25.5949" stroke="black" stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="load">Loading</div>
+        <div id="block-2">
+            <div class="title">Хочу приобрести</div>
+            <div class="menu">
+                <div class="btn">RUB</div>
+                <div class="btn selected">USD</div>
+                <div class="btn">EUR</div>
+                <div class="btn">GBP</div>
+                <select class="btn select">
+    
+                </select>
+            </div>
+            <div class="input">
+                <input type="number" id='input-2'>
+                <div class="currentRate"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src=" ./src/main.js "></script>
+</body>
+
+</html>
